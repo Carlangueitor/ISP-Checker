@@ -4,7 +4,7 @@ NAME=ISP-Checker
 VERSION=1.1
 AUTHOR="Facu de la Cruz <fmdlc.unix@gmail.com>"
 
-COMPOSE_FILE="./docker/docker-compose.yaml"
+COMPOSE_FILE="docker-compose.yaml"
 
 default:
 	@echo "USAGE: make <TARGET>"
